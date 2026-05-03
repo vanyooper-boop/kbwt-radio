@@ -1,0 +1,140 @@
+{
+  "version": 1,
+  "updated": "2026-05-03",
+  "artists": [
+    {
+      "id": "ali-fontaine",
+      "name": "Ali Fontaine",
+      "name_normalized": "ali fontaine",
+      "nation": "Sagkeeng Anishinaabe",
+      "hometown": "Sagkeeng First Nation, Manitoba",
+      "based_in": "Saskatoon, Saskatchewan",
+      "genre": ["country", "folk", "r&b"],
+      "active_since": "2010",
+      "bio": "Ali Fontaine is a multi-award-winning Anishinaabe singer-songwriter who grew up in Sagkeeng First Nation, Manitoba. She first gained attention at 15 when she won a talent competition that earned her studio time, and released her debut album before finishing high school — earning Best Country Recording at the 2013 Native American Music Awards. A four-time winner at the Aboriginal Peoples Choice Music Awards, Ali is also a law student at the University of Saskatchewan, advocating for Indigenous peoples and especially for Indigenous women and children. Her recent single Nibi — Anishinaabemowin for water — reflects on Anishinaabe water teachings and the violence against Indigenous women and girls on Turtle Island.",
+      "kbwt_note": "Nibi means 'water' in Anishinaabemowin — the same language spoken here at Bahweting.",
+      "tracks_in_rotation": ["Nibi"],
+      "links": {
+        "website": "",
+        "facebook": "https://www.facebook.com/alifontainemusic",
+        "instagram": "https://www.instagram.com/alifontainemusic",
+        "spotify": "",
+        "apple": ""
+      },
+      "photo": "artists/photos/ali-fontaine.jpg",
+      "featured": true,
+      "awards": [
+        "2013 Native American Music Awards — Best Country Recording",
+        "2013 Indigenous Music Awards — Indigenous Female Entertainer of the Year",
+        "2011 Aboriginal Peoples Choice Music Awards — Best New Artist & Best Country CD"
+      ]
+    },
+    {
+      "id": "chevy-beaulieu",
+      "name": "Chevy Beaulieu",
+      "name_normalized": "chevy beaulieu",
+      "nation": "Indigenous (Canadian)",
+      "hometown": "Steen River, Alberta",
+      "based_in": "Airdrie, Alberta",
+      "genre": ["country"],
+      "active_since": "2010s",
+      "bio": "Chevy Beaulieu is a small-town country artist from Steen River, Alberta — the son of a three-time Canadian Fiddle Champion and raised on Merle Haggard records. Now based in Airdrie and signed to 604 Records, he's worked as a plant operator while building a country music career that includes six radio singles, three #1s on the Indigenous Music Countdown, and a 2022 CMAB Fans' Choice nomination. His 2025 label debut If We Want To was named Stingray's New Country Trending Track and racked up over 200,000 streams in its first weeks.",
+      "kbwt_note": "Working musician with day-job roots — the kind of country we like to play.",
+      "tracks_in_rotation": ["If We Want To"],
+      "links": {
+        "website": "https://www.604records.com/artist/chevy-beaulieu/",
+        "facebook": "",
+        "instagram": "https://www.instagram.com/chevy_beaulieu_music",
+        "youtube": "https://www.youtube.com/@chevybeaulieu2294",
+        "apple": "https://music.apple.com/ca/artist/chevy-beaulieu/1161392077"
+      },
+      "photo": "artists/photos/chevy-beaulieu.jpg",
+      "featured": true,
+      "awards": [
+        "3× Indigenous Music Countdown #1",
+        "2022 CMAB Fans' Choice nominee"
+      ]
+    },
+    {
+      "id": "ava-rose-johnson",
+      "name": "Ava Rose Johnson",
+      "name_normalized": "ava rose johnson",
+      "nation": "Osage & Cherokee",
+      "hometown": "Eufaula, Oklahoma",
+      "based_in": "Oklahoma / Nashville",
+      "genre": ["country", "americana"],
+      "active_since": "2017",
+      "bio": "Ava Rose Johnson is an Osage and Cherokee singer-songwriter from Oklahoma who made history at age 12 as the youngest person ever to win a Native American Music Award. Now a Nashville recording artist and 2025 Recording Academy / GRAMMYs new member, she's racked up four top-10 singles on the Indigenous Music Countdown — including Oklahoma Sky, which hit #1 in 2025. She's performed the National Anthem at multiple OKC Thunder games, the NCAA Women's College World Series, and on Good Morning America.",
+      "kbwt_note": "Started writing at age 12 and never slowed down. Oklahoma Sky has Osage references right in the lyrics.",
+      "tracks_in_rotation": ["Oklahoma Sky"],
+      "links": {
+        "website": "https://www.avarosejohnsonmusic.com",
+        "facebook": "",
+        "instagram": "https://www.instagram.com/avarosejohnsonmusic",
+        "youtube": "https://www.youtube.com/@avarosejohnson945"
+      },
+      "photo": "artists/photos/ava-rose-johnson.jpg",
+      "featured": true,
+      "awards": [
+        "20th Annual Native American Music Awards — Best Female Artist of the Year",
+        "Youngest-ever Native American Music Award winner (age 12, 2019)",
+        "2× NextGen Under 30 Oklahoma — The Arts (2021, 2023)"
+      ]
+    },
+    {
+      "id": "brothers-wilde",
+      "name": "Brothers Wilde",
+      "name_normalized": "brothers wilde",
+      "nation": "Anishinaabe (Kettle and Stony Point First Nation)",
+      "hometown": "Kettle and Stony Point First Nation, Ontario",
+      "based_in": "Ontario",
+      "genre": ["country", "country rock", "roots"],
+      "active_since": "2018",
+      "bio": "Brothers Wilde are a country-rock duo of siblings Nolan and Ethan Wilde from Kettle and Stony Point First Nation, northeast of Sarnia, Ontario. Lead singer Nolan and lead guitarist Ethan blend country twang with classic rock and roll licks — earning them two #1 singles on the Indigenous Music Countdown (2022 and 2025), plus the 2025 FCLMA Songwriters of the Year award and 2024 FCLMA Country Artist of the Year. As Ethan put it: \"We're not afraid to show that we're country guys, too. We're Indigenous, and we're country.\" They want to be the kind of artists young Indigenous songwriters can look at and say, \"if they can do it, maybe I can do it too.\"",
+      "kbwt_note": "Brothers from a Three Fires Confederacy nation — Anishinaabe relatives doing big things.",
+      "tracks_in_rotation": ["I Hold On", "Buzzin"],
+      "links": {
+        "website": "https://www.brotherswildemusic.com",
+        "facebook": "https://www.facebook.com/brotherswildemusic",
+        "instagram": "https://www.instagram.com/brotherswildemusic",
+        "youtube": "https://www.youtube.com/@brotherswilde9548",
+        "apple": "https://music.apple.com/ca/artist/brothers-wilde/1514538119"
+      },
+      "photo": "artists/photos/brothers-wilde.jpg",
+      "featured": true,
+      "awards": [
+        "2× Indigenous Music Countdown #1 (2022, 2025)",
+        "2025 FCLMA Songwriters of the Year",
+        "2024 FCLMA Country Artist of the Year",
+        "2019 NACMAI New Country Duo of the Year"
+      ]
+    },
+    {
+      "id": "catie-st-germain",
+      "name": "Catie St.Germain",
+      "name_normalized": "catie st germain",
+      "alt_names": ["Catie St. Germain", "Catie St.Germain"],
+      "nation": "Métis (Red River)",
+      "hometown": "Niverville, Manitoba",
+      "based_in": "Niverville, Manitoba",
+      "genre": ["country"],
+      "active_since": "2023",
+      "bio": "Catie St. Germain is a Métis country artist from Niverville, Manitoba who broke through in 2023 with the Manitoba Country Music Association's Emerging Artist award and hasn't slowed down. Her debut EP Cleaning House (Or Trying) earned her three more MCMAs in 2024, and her 2025 single Good Girl Gone Bad Mom — born out of a real conversation about everything moms juggle in a day — became a fan favorite that earned her six MCMA nominations including Female Artist of the Year and the NCI FM Indigenous Country Music Award. She delivered the national anthem at the 112th Grey Cup in November 2025.",
+      "kbwt_note": "Sang O Canada at the Grey Cup. A Métis country artist on the rise — and the song hits home for any mom in the audience.",
+      "tracks_in_rotation": ["Good Girl Gone Bad Mom"],
+      "links": {
+        "website": "https://www.catiestgermain.com",
+        "facebook": "https://www.facebook.com/CatieStGermainBand",
+        "apple": "https://music.apple.com/ca/artist/catie-st-germain/1677967847",
+        "spotify": "https://open.spotify.com/track/0yGubOzGkSh3UPYXYzv5u9"
+      },
+      "photo": "artists/photos/catie-st-germain.jpg",
+      "featured": true,
+      "awards": [
+        "2023 MCMA — Emerging Artist of the Year",
+        "2024 MCMA — Single of the Year (High Forever)",
+        "Performed national anthem at 112th Grey Cup (2025)"
+      ]
+    }
+  ]
+}
