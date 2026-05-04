@@ -1,0 +1,978 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Events — WBWT Bahweting Radio</title>
+<meta name="description" content="Community events from across our listening community — powwows, concerts, language classes, and more.">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --bg: #faf6ee;
+  --surface: #ffffff;
+  --surface2: #f3eee2;
+  --surface3: #ebe3d0;
+  --border: #e3dccb;
+  --border-strong: #c9bfa6;
+  --text: #1c1d1a;
+  --text-soft: #3a3c37;
+  --muted: #6b6d65;
+  --dim: #8a8c82;
+  --turq: #1f8a72;
+  --turq-bright: #3ecfaa;
+  --gold: #9a7d2e;
+  --gold-bright: #c9a94b;
+  --red-on: #c8302f;
+  --red-bright: #e84040;
+}
+html { scroll-behavior: smooth; }
+body {
+  font-family: 'Source Sans 3', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  padding-bottom: 96px;
+  font-size: 17px;
+  line-height: 1.55;
+}
+
+/* ═══ TOP NAV ═══ */
+.topnav {
+  background: rgba(250, 246, 238, 0.95);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--border);
+  position: sticky; top: 0; z-index: 90;
+}
+.topnav-inner {
+  max-width: 1320px; margin: 0 auto;
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 16px 28px;
+}
+.brand { display: flex; align-items: center; gap: 14px; text-decoration: none; color: var(--text); }
+.brand-mark {
+  width: 48px; height: 48px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  background: white;
+  border: 1px solid var(--border);
+  overflow: hidden;
+  display: flex; align-items: center; justify-content: center;
+}
+.brand-mark img { width: 100%; height: 100%; object-fit: cover; }
+.brand-text h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 22px; font-weight: 900; line-height: 1; margin-bottom: 3px;
+}
+.brand-text h1 span { color: var(--gold); font-style: italic; font-weight: 700; }
+.brand-text .sub {
+  font-size: 11px; color: var(--turq);
+  letter-spacing: 0.18em; text-transform: uppercase; font-weight: 600;
+}
+.nav-links { display: flex; align-items: center; gap: 4px; }
+.nav-links a {
+  text-decoration: none; color: var(--text-soft);
+  font-size: 15px; font-weight: 500; padding: 10px 16px;
+  border-radius: 6px; transition: color .15s, background .15s;
+}
+.nav-links a:hover { color: var(--turq); background: rgba(31,138,114,0.06); }
+.nav-links a.active { color: var(--turq); }
+.nav-listen {
+  background: var(--red-on) !important;
+  color: white !important;
+  border-radius: 22px;
+  padding: 8px 18px !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.1em;
+  display: flex !important; align-items: center; gap: 8px;
+  margin-left: 8px;
+}
+.nav-listen:hover { background: var(--red-bright) !important; transform: translateY(-1px); }
+.nav-listen::before {
+  content:''; width: 8px; height: 8px; border-radius: 50%;
+  background: white; animation: pulse 1.4s ease-in-out infinite;
+}
+@keyframes pulse { 0%,100%{opacity:1;transform:scale(1)} 50%{opacity:.4;transform:scale(.7)} }
+
+.hamburger {
+  display: none; background: transparent;
+  border: 1px solid var(--border-strong);
+  width: 44px; height: 44px; border-radius: 8px;
+  cursor: pointer; align-items: center; justify-content: center; color: var(--text);
+}
+.hamburger svg { width: 22px; height: 22px; }
+.mobile-menu {
+  display: none; position: fixed; top: 76px; left: 0; right: 0;
+  background: var(--bg); border-bottom: 1px solid var(--border);
+  z-index: 89; padding: 16px 24px 24px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+  flex-direction: column; gap: 4px;
+}
+.mobile-menu.open { display: flex; }
+.mobile-menu a {
+  display: block; text-decoration: none; color: var(--text);
+  font-size: 18px; font-weight: 500; padding: 14px 12px;
+  border-radius: 8px; border-bottom: 1px solid var(--border);
+}
+.mobile-menu a:last-child { border-bottom: none; }
+.mobile-menu a.nav-listen { background: var(--red-on); color: white !important; text-align: center; margin-top: 8px; border-radius: 22px; border-bottom: none; }
+
+/* ═══ PAGE HEADER ═══ */
+.page-header {
+  max-width: 1320px; margin: 0 auto;
+  padding: 56px 28px 32px;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 30px;
+  align-items: end;
+}
+.page-header::before {
+  content:''; position: absolute; inset: 0;
+  background: radial-gradient(ellipse 60% 50% at 30% 50%, rgba(154,125,46,.06) 0%, transparent 70%);
+  pointer-events: none; z-index: -1;
+}
+.page-header-text .eyebrow {
+  font-size: 13px; letter-spacing: 0.25em;
+  text-transform: uppercase; color: var(--gold);
+  margin-bottom: 16px; font-weight: 700;
+}
+.page-header-text h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 56px; font-weight: 900; line-height: 1.05;
+  margin-bottom: 16px; letter-spacing: -0.015em;
+}
+.page-header-text h2 span { color: var(--gold); font-style: italic; font-weight: 400; }
+.page-header-text .lead {
+  font-size: 18px; color: var(--text-soft);
+  max-width: 580px; line-height: 1.55;
+}
+
+.submit-btn {
+  display: inline-flex; align-items: center; gap: 10px;
+  background: var(--turq); color: white;
+  padding: 14px 24px; border-radius: 28px;
+  font-weight: 700; font-size: 14px;
+  letter-spacing: 0.05em; text-decoration: none;
+  border: none; cursor: pointer; font-family: inherit;
+  white-space: nowrap;
+  transition: transform .15s, background .15s, box-shadow .15s;
+  box-shadow: 0 3px 12px rgba(31,138,114,0.25);
+}
+.submit-btn:hover { background: var(--turq-bright); color: var(--text); transform: translateY(-2px); box-shadow: 0 6px 20px rgba(31,138,114,0.35); }
+.submit-btn svg { width: 18px; height: 18px; }
+
+/* ═══ FILTERS ═══ */
+.filters {
+  max-width: 1320px; margin: 0 auto;
+  padding: 0 28px 24px;
+  display: flex; gap: 10px; flex-wrap: wrap;
+  border-bottom: 1px solid var(--border);
+}
+.filter-btn {
+  background: transparent; border: 1px solid var(--border-strong);
+  color: var(--text-soft); padding: 8px 18px; border-radius: 22px;
+  font-size: 13px; font-weight: 500; cursor: pointer;
+  font-family: inherit; transition: all .15s;
+}
+.filter-btn:hover { border-color: var(--turq); color: var(--turq); }
+.filter-btn.active { background: var(--turq); border-color: var(--turq); color: white; }
+
+/* ═══ EVENTS LIST ═══ */
+.events-section {
+  max-width: 1320px; margin: 0 auto;
+  padding: 36px 28px 56px;
+}
+.month-group {
+  margin-bottom: 48px;
+}
+.month-header {
+  display: flex; align-items: baseline; gap: 16px;
+  margin-bottom: 20px;
+  padding-bottom: 14px;
+  border-bottom: 2px solid var(--border);
+}
+.month-header h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 32px; font-weight: 700;
+  letter-spacing: -0.01em;
+}
+.month-header h3 span { color: var(--gold); font-style: italic; font-weight: 400; }
+.month-count {
+  font-size: 13px; color: var(--muted);
+  letter-spacing: 0.05em;
+}
+
+.events-list { display: flex; flex-direction: column; gap: 14px; }
+.event-row {
+  display: grid;
+  grid-template-columns: 90px 1fr auto;
+  gap: 24px;
+  align-items: center;
+  padding: 22px 26px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  cursor: pointer;
+  transition: border-color .15s, transform .15s, box-shadow .15s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}
+.event-row:hover {
+  border-color: var(--turq);
+  transform: translateX(2px);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+}
+.event-row.past {
+  opacity: 0.55;
+}
+.event-date {
+  text-align: center;
+  border-right: 2px solid var(--border);
+  padding-right: 24px;
+}
+.event-date .day-name {
+  font-size: 11px; color: var(--turq);
+  letter-spacing: 0.18em; text-transform: uppercase;
+  font-weight: 700; margin-bottom: 4px;
+}
+.event-date .day-num {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px; font-weight: 900;
+  line-height: 1; color: var(--text);
+}
+.event-info h4 {
+  font-size: 19px; margin-bottom: 6px;
+  font-weight: 600; color: var(--text);
+  line-height: 1.3;
+}
+.event-info .meta {
+  font-size: 14.5px; color: var(--muted);
+  display: flex; gap: 12px; flex-wrap: wrap;
+  align-items: center;
+}
+.event-info .meta .dot { color: var(--dim); }
+.event-info .meta .time {
+  color: var(--turq); font-weight: 600;
+}
+.event-tag {
+  font-size: 11px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--turq);
+  background: rgba(31,138,114,0.08);
+  padding: 6px 14px;
+  border-radius: 14px;
+  border: 1px solid rgba(31,138,114,0.2);
+  font-weight: 700;
+}
+.event-tag.powwow { color: var(--red-on); background: rgba(200,48,47,0.08); border-color: rgba(200,48,47,0.2); }
+.event-tag.gold { color: var(--gold); background: rgba(154,125,46,0.08); border-color: rgba(154,125,46,0.2); }
+
+/* ═══ STATES ═══ */
+.loading-state, .empty-state, .error-state {
+  text-align: center; padding: 80px 28px;
+  color: var(--muted);
+  font-size: 16px;
+}
+.loading-state .spinner {
+  display: inline-block; width: 28px; height: 28px;
+  border: 3px solid var(--border);
+  border-top-color: var(--turq);
+  border-radius: 50%;
+  animation: spin .8s linear infinite;
+  margin-bottom: 14px;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+.empty-state svg { width: 48px; height: 48px; opacity: 0.3; margin-bottom: 14px; }
+.empty-state h3 { font-family: 'Playfair Display', serif; font-size: 24px; color: var(--text); margin-bottom: 8px; font-weight: 700; }
+
+/* ═══ EVENT DETAIL OVERLAY ═══ */
+.event-detail {
+  position: fixed; inset: 0;
+  background: rgba(28,29,26,0.85);
+  backdrop-filter: blur(8px);
+  z-index: 200; display: none;
+  overflow-y: auto;
+  padding: 40px 24px 120px;
+}
+.event-detail.open { display: block; }
+.event-detail-card {
+  max-width: 640px; margin: 0 auto;
+  background: var(--bg);
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+  position: relative;
+  animation: slideUp .35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(40px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.event-detail-close {
+  position: absolute;
+  top: 18px; right: 18px;
+  width: 40px; height: 40px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.95);
+  border: none; cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  z-index: 10;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+.event-detail-close svg { width: 20px; height: 20px; color: var(--text); }
+.event-detail-banner {
+  padding: 32px 36px;
+  background: linear-gradient(135deg, var(--turq) 0%, #0d4a3d 100%);
+  color: white;
+}
+.event-detail-banner.gold { background: linear-gradient(135deg, var(--gold-bright) 0%, #6e5520 100%); }
+.event-detail-banner.red { background: linear-gradient(135deg, var(--red-on) 0%, #6b1a19 100%); }
+.event-detail-eyebrow {
+  font-size: 12px; letter-spacing: 0.2em;
+  text-transform: uppercase; opacity: 0.85;
+  font-weight: 700; margin-bottom: 8px;
+}
+.event-detail-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 30px; font-weight: 800;
+  line-height: 1.15; margin-bottom: 12px;
+}
+.event-detail-when {
+  font-size: 16.5px; font-weight: 600;
+  opacity: 0.95;
+}
+.event-detail-body {
+  padding: 28px 36px 32px;
+}
+.event-detail-section {
+  margin-bottom: 22px;
+}
+.event-detail-section h5 {
+  font-size: 11px; letter-spacing: 0.2em;
+  text-transform: uppercase; color: var(--turq);
+  font-weight: 700; margin-bottom: 8px;
+}
+.event-detail-section p {
+  font-size: 16px; color: var(--text); line-height: 1.55;
+}
+.event-detail-section .where { font-weight: 500; }
+.event-detail-actions {
+  display: flex; gap: 10px; flex-wrap: wrap;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+}
+.event-action-btn {
+  flex: 1; min-width: 140px;
+  background: var(--surface); border: 1px solid var(--border-strong);
+  color: var(--text); padding: 12px 18px;
+  border-radius: 22px; font-size: 14px; font-weight: 600;
+  text-decoration: none; text-align: center;
+  cursor: pointer; font-family: inherit;
+  transition: all .15s;
+}
+.event-action-btn:hover { border-color: var(--turq); color: var(--turq); }
+.event-action-btn.primary { background: var(--turq); border-color: var(--turq); color: white; }
+.event-action-btn.primary:hover { background: var(--turq-bright); color: var(--text); }
+
+/* ═══ FOOTER ═══ */
+footer {
+  border-top: 1px solid var(--border);
+  padding: 44px 28px 32px;
+  margin-top: 40px;
+  background: var(--surface2);
+}
+.footer-inner {
+  max-width: 1320px; margin: 0 auto;
+  display: flex; align-items: center; justify-content: space-between;
+  flex-wrap: wrap; gap: 22px;
+}
+.footer-brand {
+  font-family: 'Playfair Display', serif;
+  font-size: 16px; font-weight: 700; color: var(--muted);
+}
+.footer-links { display: flex; gap: 26px; flex-wrap: wrap; }
+.footer-links a {
+  color: var(--text-soft); text-decoration: none;
+  font-size: 14px; font-weight: 500;
+}
+.footer-links a:hover { color: var(--turq); }
+.footer-meta { font-size: 13px; color: var(--dim); }
+
+/* ═══ PERSISTENT PLAYER BAR ═══ */
+.player-bar {
+  position: fixed; bottom: 0; left: 0; right: 0;
+  background: var(--text); color: white; z-index: 100;
+  padding: 14px 28px;
+  box-shadow: 0 -4px 20px rgba(0,0,0,0.15);
+}
+.player-bar-inner {
+  max-width: 1320px; margin: 0 auto;
+  display: grid; grid-template-columns: 1fr auto 1fr;
+  gap: 28px; align-items: center;
+}
+.pb-track { display: flex; align-items: center; gap: 14px; min-width: 0; }
+.pb-art {
+  width: 54px; height: 54px; border-radius: 8px;
+  background: rgba(255,255,255,0.08); flex-shrink: 0;
+  display: flex; align-items: center; justify-content: center;
+  overflow: hidden; position: relative;
+}
+.pb-art svg { width: 24px; height: 24px; color: var(--turq-bright); opacity: 0.8; }
+.pb-art img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0; transition: opacity .5s; }
+.pb-art img.show { opacity: 1; }
+.pb-info { min-width: 0; }
+.pb-title { font-size: 15px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-bottom: 2px; color: white; }
+.pb-artist { font-size: 13px; color: var(--turq-bright); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.pb-controls { display: flex; align-items: center; gap: 14px; }
+.pb-play {
+  background: var(--red-on); border: none; color: white;
+  width: 56px; height: 56px; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  cursor: pointer;
+  transition: transform .15s, background .15s, box-shadow .15s;
+  box-shadow: 0 2px 12px rgba(232,64,64,0.35);
+}
+.pb-play:hover { background: var(--red-bright); transform: scale(1.05); }
+.pb-play:active { transform: scale(0.95); }
+.pb-play svg { width: 24px; height: 24px; }
+.pb-play.playing .pb-play-icon { display: none; }
+.pb-play .pb-pause-icon { display: none; }
+.pb-play.playing .pb-pause-icon { display: block; }
+.pb-volume { display: flex; align-items: center; justify-content: flex-end; gap: 12px; }
+.pb-vol-icon { width: 20px; height: 20px; color: rgba(255,255,255,0.6); }
+.pb-vol-slider { -webkit-appearance: none; appearance: none; width: 100px; height: 4px; background: rgba(255,255,255,0.15); border-radius: 2px; cursor: pointer; outline: none; }
+.pb-vol-slider::-webkit-slider-thumb { -webkit-appearance: none; appearance: none; width: 14px; height: 14px; border-radius: 50%; background: var(--turq-bright); cursor: pointer; }
+.pb-vol-slider::-moz-range-thumb { width: 14px; height: 14px; border-radius: 50%; background: var(--turq-bright); cursor: pointer; border: none; }
+.pb-status { font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: rgba(255,255,255,0.55); white-space: nowrap; font-weight: 600; }
+.pb-status.live { color: #ff7676; }
+
+@media (max-width: 980px) {
+  body { font-size: 16px; padding-bottom: 84px; }
+  .page-header { grid-template-columns: 1fr; padding: 36px 28px 24px; }
+  .page-header-text h2 { font-size: 38px; }
+  .nav-links { display: none; }
+  .hamburger { display: flex; }
+}
+@media (max-width: 640px) {
+  .topnav-inner { padding: 12px 18px; }
+  .page-header { padding: 28px 18px 20px; }
+  .page-header-text h2 { font-size: 28px; }
+  .page-header-text .lead { font-size: 16px; }
+  .filters { padding: 0 18px 20px; }
+  .events-section { padding: 28px 18px 40px; }
+  .month-header h3 { font-size: 24px; }
+  .event-row { grid-template-columns: 70px 1fr; padding: 18px 18px; gap: 18px; }
+  .event-tag { display: none; }
+  .event-info h4 { font-size: 17px; }
+  .event-detail-banner { padding: 24px 24px; }
+  .event-detail-title { font-size: 24px; }
+  .event-detail-body { padding: 22px 24px 26px; }
+  .player-bar { padding: 10px 14px; }
+  .player-bar-inner { grid-template-columns: 1fr auto; gap: 12px; }
+  .pb-volume { display: none; }
+  .pb-art { width: 46px; height: 46px; }
+  .pb-play { width: 50px; height: 50px; }
+  .mobile-menu { top: 70px; }
+}
+</style>
+</head>
+<body>
+
+<!-- ═══ TOP NAV ═══ -->
+<nav class="topnav">
+  <div class="topnav-inner">
+    <a class="brand" href="index.html">
+      <div class="brand-mark"><img src="wbwt-logo.png" alt="WBWT"></div>
+      <div class="brand-text">
+        <h1>WBWT <span>Bahweting</span></h1>
+        <div class="sub">The Voice of The Gathering Place</div>
+      </div>
+    </a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="index.html#community">Community</a>
+      <a href="events.html" class="active">Events</a>
+      <a href="index.html#shows">Shows</a>
+      <a href="artists.html">Artists</a>
+      <a href="#" class="nav-listen" id="navListen">LISTEN LIVE</a>
+    </div>
+    <button class="hamburger" id="hamburger" aria-label="Open menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+        <line x1="3" y1="6" x2="21" y2="6"/>
+        <line x1="3" y1="12" x2="21" y2="12"/>
+        <line x1="3" y1="18" x2="21" y2="18"/>
+      </svg>
+    </button>
+  </div>
+</nav>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="index.html">Home</a>
+  <a href="index.html#community">Community Board</a>
+  <a href="events.html" class="active">Events Calendar</a>
+  <a href="index.html#shows">Shows</a>
+  <a href="artists.html">Artists</a>
+  <a href="#" class="nav-listen" id="mobListen">▶ LISTEN LIVE</a>
+</div>
+
+<!-- ═══ PAGE HEADER ═══ -->
+<section class="page-header">
+  <div class="page-header-text">
+    <div class="eyebrow">Community Calendar</div>
+    <h2>What's coming up <span>around our community.</span></h2>
+    <p class="lead">
+      Powwows, language classes, concerts at Kewadin, elder events, youth camps, health fairs,
+      and milestones from members near and far. Got something to add? Submit it — we'll share it on air.
+    </p>
+  </div>
+  <a class="submit-btn" id="submitBtn" href="#submit">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+      <line x1="12" y1="5" x2="12" y2="19"/>
+      <line x1="5" y1="12" x2="19" y2="12"/>
+    </svg>
+    Submit an Event
+  </a>
+</section>
+
+<!-- ═══ FILTERS ═══ -->
+<div class="filters" id="filterBar">
+  <button class="filter-btn active" data-filter="all">All</button>
+  <button class="filter-btn" data-filter="powwow">Powwows</button>
+  <button class="filter-btn" data-filter="concert">Concerts</button>
+  <button class="filter-btn" data-filter="language">Language & Culture</button>
+  <button class="filter-btn" data-filter="elder">Elders</button>
+  <button class="filter-btn" data-filter="youth">Youth</button>
+  <button class="filter-btn" data-filter="health">Health</button>
+</div>
+
+<!-- ═══ EVENTS LIST ═══ -->
+<section class="events-section">
+  <div id="eventsContainer">
+    <div class="loading-state">
+      <div class="spinner"></div>
+      <div>Loading events from our community calendar…</div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ EVENT DETAIL OVERLAY ═══ -->
+<div class="event-detail" id="eventDetail" role="dialog" aria-modal="true" aria-hidden="true">
+  <div class="event-detail-card" id="eventDetailCard">
+    <!-- Filled by JS -->
+  </div>
+</div>
+
+<!-- ═══ FOOTER ═══ -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">WBWT Bahweting Radio</div>
+    <div class="footer-links">
+      <a href="#">About</a>
+      <a href="#submit">Submit a Notice</a>
+      <a href="#">DJs & Hosts</a>
+      <a href="#">Contact</a>
+      <a href="https://indiancountryradio.com" target="_blank">Indian Country Radio</a>
+    </div>
+    <div class="footer-meta">© 2026 · WBWT Bahweting Radio · You're home here.</div>
+  </div>
+</footer>
+
+<!-- ═══ PERSISTENT PLAYER BAR ═══ -->
+<div class="player-bar">
+  <div class="player-bar-inner">
+    <div class="pb-track">
+      <div class="pb-art">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3"/>
+        </svg>
+        <img id="pbArtImg" src="" alt="">
+      </div>
+      <div class="pb-info">
+        <div class="pb-title" id="pbTitle">WBWT Bahweting Radio</div>
+        <div class="pb-artist" id="pbArtist">The Voice of The Gathering Place</div>
+      </div>
+    </div>
+    <div class="pb-controls">
+      <button class="pb-play" id="pbPlay" title="Play">
+        <svg class="pb-play-icon" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+        <svg class="pb-pause-icon" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
+      </button>
+    </div>
+    <div class="pb-volume">
+      <span class="pb-status" id="pbStatus">Press play</span>
+      <svg class="pb-vol-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/>
+        <path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
+        <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
+      </svg>
+      <input type="range" min="0" max="100" value="80" class="pb-vol-slider" id="pbVol">
+    </div>
+  </div>
+</div>
+
+<audio id="streamAudio" preload="none" crossorigin="anonymous"></audio>
+
+<script>
+// ═══════════════════════════════════════════════════════════════
+//   GOOGLE CALENDAR INTEGRATION
+// ═══════════════════════════════════════════════════════════════
+
+const CALENDAR_ID = '9a61631020b2c4a03c1f0c50c8f2457a0ba1066b34c4264e081e87b1701517bb@group.calendar.google.com';
+const API_KEY = 'AIzaSyChIOuHAUkZp59u74uPbGzcpl2RkMlrtWc';
+
+// Google Form URL for event submissions (we'll wire this up next)
+const SUBMIT_FORM_URL = ''; // Leave blank for now — falls back to mailto
+
+let allEvents = [];
+
+const MONTHS = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+const DAYS = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+
+function escapeHtml(s) {
+  return String(s || '').replace(/[&<>"']/g, c =>
+    ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' }[c])
+  );
+}
+
+// Categorize events by keyword in title/description for filtering and tag colors
+function categorizeEvent(event) {
+  const text = ((event.summary || '') + ' ' + (event.description || '') + ' ' + (event.location || '')).toLowerCase();
+  if (/powwow|pow.?wow|jingle|drum|grand entry/i.test(text)) return 'powwow';
+  if (/concert|live music|kewadin|theater|theatre|tour|show|performance/i.test(text)) return 'concert';
+  if (/language|anishinaabe|class|teaching|culture|ceremony|ceremonial/i.test(text)) return 'language';
+  if (/elder|senior|luncheon/i.test(text)) return 'elder';
+  if (/youth|kid|teen|camp|child/i.test(text)) return 'youth';
+  if (/health|wellness|clinic|fair|walk|run|fitness|diabetes/i.test(text)) return 'health';
+  return 'other';
+}
+
+function categoryLabel(cat) {
+  return ({
+    powwow: 'Powwow',
+    concert: 'Concert',
+    language: 'Language',
+    elder: 'Elders',
+    youth: 'Youth',
+    health: 'Health',
+    other: 'Community'
+  })[cat] || 'Community';
+}
+
+function formatTime(dateStr) {
+  const d = new Date(dateStr);
+  let h = d.getHours();
+  const m = d.getMinutes();
+  const ampm = h >= 12 ? 'pm' : 'am';
+  h = h % 12 || 12;
+  const mm = m === 0 ? '' : ':' + m.toString().padStart(2, '0');
+  return h + mm + ampm;
+}
+
+function getEventStart(event) {
+  const s = event.start.dateTime || event.start.date;
+  return new Date(s);
+}
+
+function isAllDay(event) {
+  return !!event.start.date;
+}
+
+async function loadEvents() {
+  const container = document.getElementById('eventsContainer');
+  const now = new Date();
+  const timeMin = new Date(now.getFullYear(), now.getMonth() - 1, 1).toISOString();
+  const timeMax = new Date(now.getFullYear() + 1, now.getMonth(), 1).toISOString();
+
+  const url = `https://www.googleapis.com/calendar/v3/calendars/${encodeURIComponent(CALENDAR_ID)}/events?key=${API_KEY}&timeMin=${timeMin}&timeMax=${timeMax}&maxResults=100&singleEvents=true&orderBy=startTime`;
+
+  try {
+    const r = await fetch(url);
+    if (!r.ok) {
+      const errorData = await r.json().catch(() => ({}));
+      throw new Error(errorData.error?.message || `HTTP ${r.status}`);
+    }
+    const data = await r.json();
+    allEvents = (data.items || []).map(ev => ({
+      ...ev,
+      _category: categorizeEvent(ev),
+      _start: getEventStart(ev),
+      _allDay: isAllDay(ev)
+    }));
+
+    if (allEvents.length === 0) {
+      container.innerHTML = `
+        <div class="empty-state">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <rect x="3" y="4" width="18" height="18" rx="2"/>
+            <line x1="16" y1="2" x2="16" y2="6"/>
+            <line x1="8" y1="2" x2="8" y2="6"/>
+            <line x1="3" y1="10" x2="21" y2="10"/>
+          </svg>
+          <h3>No events on the calendar yet</h3>
+          <p>Check back soon — or submit one yourself!</p>
+        </div>
+      `;
+      return;
+    }
+
+    renderEvents('all');
+  } catch (err) {
+    console.error('Calendar load error:', err);
+    container.innerHTML = `
+      <div class="error-state">
+        <h3 style="font-family:'Playfair Display',serif;font-size:24px;color:var(--text);margin-bottom:8px;font-weight:700;">Couldn't load events</h3>
+        <p>${escapeHtml(err.message)}</p>
+        <p style="margin-top:14px;font-size:14px;">Make sure the calendar is set to public and the API key is restricted to Google Calendar API.</p>
+      </div>
+    `;
+  }
+}
+
+function renderEvents(filter) {
+  const container = document.getElementById('eventsContainer');
+  let filtered = allEvents;
+  if (filter !== 'all') {
+    filtered = allEvents.filter(ev => ev._category === filter);
+  }
+
+  if (filtered.length === 0) {
+    container.innerHTML = `
+      <div class="empty-state">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <rect x="3" y="4" width="18" height="18" rx="2"/>
+        </svg>
+        <h3>No events in this category</h3>
+        <p>Try a different filter or check back later.</p>
+      </div>
+    `;
+    return;
+  }
+
+  // Group by month
+  const groups = {};
+  filtered.forEach(ev => {
+    const d = ev._start;
+    const key = d.getFullYear() + '-' + String(d.getMonth()).padStart(2, '0');
+    if (!groups[key]) {
+      groups[key] = { label: MONTHS[d.getMonth()] + ' ' + d.getFullYear(), events: [] };
+    }
+    groups[key].events.push(ev);
+  });
+
+  const now = new Date();
+
+  let html = '';
+  Object.keys(groups).sort().forEach(key => {
+    const group = groups[key];
+    const monthLabel = group.label;
+    const parts = monthLabel.split(' ');
+    html += `
+      <div class="month-group">
+        <div class="month-header">
+          <h3>${parts[0]} <span>${parts[1]}</span></h3>
+          <div class="month-count">${group.events.length} event${group.events.length === 1 ? '' : 's'}</div>
+        </div>
+        <div class="events-list">
+          ${group.events.map(ev => renderEventRow(ev, now)).join('')}
+        </div>
+      </div>
+    `;
+  });
+  container.innerHTML = html;
+
+  // Wire up clicks
+  container.querySelectorAll('.event-row').forEach(row => {
+    row.addEventListener('click', () => openEventDetail(row.dataset.id));
+  });
+}
+
+function renderEventRow(ev, now) {
+  const d = ev._start;
+  const isPast = d < now && !ev._allDay && d.toDateString() !== now.toDateString();
+  const isPastFull = ev._allDay && d < new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  const past = isPast || isPastFull;
+
+  const dayName = DAYS[d.getDay()];
+  const dayNum = d.getDate();
+  const time = ev._allDay ? 'All Day' : formatTime(ev.start.dateTime);
+  const location = ev.location || '';
+  const cat = ev._category;
+  const tagClass = cat === 'powwow' ? 'powwow' : (cat === 'concert' ? 'gold' : '');
+
+  return `
+    <div class="event-row ${past ? 'past' : ''}" data-id="${ev.id}" data-category="${cat}">
+      <div class="event-date">
+        <div class="day-name">${dayName}</div>
+        <div class="day-num">${dayNum}</div>
+      </div>
+      <div class="event-info">
+        <h4>${escapeHtml(ev.summary || 'Untitled event')}</h4>
+        <div class="meta">
+          <span class="time">${time}</span>
+          ${location ? `<span class="dot">·</span><span>${escapeHtml(location)}</span>` : ''}
+        </div>
+      </div>
+      <div class="event-tag ${tagClass}">${categoryLabel(cat)}</div>
+    </div>
+  `;
+}
+
+// ═══ EVENT DETAIL ═══
+function openEventDetail(id) {
+  const ev = allEvents.find(e => e.id === id);
+  if (!ev) return;
+  const d = ev._start;
+  const time = ev._allDay ? 'All day' : formatTime(ev.start.dateTime) + (ev.end?.dateTime ? ' – ' + formatTime(ev.end.dateTime) : '');
+  const dateStr = DAYS[d.getDay()] + ', ' + MONTHS[d.getMonth()] + ' ' + d.getDate() + ', ' + d.getFullYear();
+
+  const cat = ev._category;
+  const bannerClass = cat === 'powwow' ? 'red' : (cat === 'concert' ? 'gold' : '');
+
+  const calendarLink = ev.htmlLink || '';
+
+  const card = document.getElementById('eventDetailCard');
+  card.innerHTML = `
+    <button class="event-detail-close" aria-label="Close">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+        <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+      </svg>
+    </button>
+    <div class="event-detail-banner ${bannerClass}">
+      <div class="event-detail-eyebrow">${categoryLabel(cat)}</div>
+      <h3 class="event-detail-title">${escapeHtml(ev.summary || 'Event')}</h3>
+      <div class="event-detail-when">${dateStr} · ${time}</div>
+    </div>
+    <div class="event-detail-body">
+      ${ev.location ? `
+        <div class="event-detail-section">
+          <h5>Where</h5>
+          <p class="where">${escapeHtml(ev.location)}</p>
+        </div>
+      ` : ''}
+      ${ev.description ? `
+        <div class="event-detail-section">
+          <h5>About</h5>
+          <p>${escapeHtml(ev.description).replace(/\\n/g, '<br>')}</p>
+        </div>
+      ` : ''}
+      <div class="event-detail-actions">
+        ${calendarLink ? `<a class="event-action-btn primary" href="${calendarLink}" target="_blank" rel="noopener">Add to Calendar</a>` : ''}
+        ${ev.location ? `<a class="event-action-btn" href="https://www.google.com/maps/search/${encodeURIComponent(ev.location)}" target="_blank" rel="noopener">Map / Directions</a>` : ''}
+      </div>
+    </div>
+  `;
+
+  card.querySelector('.event-detail-close').addEventListener('click', closeEventDetail);
+  document.getElementById('eventDetail').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeEventDetail() {
+  document.getElementById('eventDetail').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+document.getElementById('eventDetail').addEventListener('click', e => {
+  if (e.target.id === 'eventDetail') closeEventDetail();
+});
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeEventDetail(); });
+
+// Filter buttons
+document.getElementById('filterBar').addEventListener('click', e => {
+  if (!e.target.classList.contains('filter-btn')) return;
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  e.target.classList.add('active');
+  renderEvents(e.target.dataset.filter);
+});
+
+// Submit button
+document.getElementById('submitBtn').addEventListener('click', e => {
+  e.preventDefault();
+  if (SUBMIT_FORM_URL) {
+    window.open(SUBMIT_FORM_URL, '_blank');
+  } else {
+    // Fallback while form isn't set up yet
+    window.location.href = 'mailto:kbwt.radio@gmail.com?subject=WBWT%20Event%20Submission&body=Event%20title%3A%20%0AStart%20date%2Ftime%3A%20%0AEnd%20date%2Ftime%3A%20%0ALocation%3A%20%0ADescription%3A%20%0AYour%20name%3A%20%0AYour%20email%3A%20';
+  }
+});
+
+// Load events on page load
+loadEvents();
+
+// ═══════════════════════════════════════════════════════════════
+//   PERSISTENT RADIO PLAYER
+// ═══════════════════════════════════════════════════════════════
+const STREAM_URL = 'https://streaming.live365.com/a40863';
+const META_URL = 'https://kbwt-meta.vanyooper.workers.dev/';
+const STATION_LOGO = 'wbwt-logo.png';
+const BLANK_ART_PATTERN = /broadcaster\.live365\.com.*blankart/i;
+
+const audio = document.getElementById('streamAudio');
+const pbPlay = document.getElementById('pbPlay');
+const pbStatus = document.getElementById('pbStatus');
+const pbVol = document.getElementById('pbVol');
+const pbTitleEl = document.getElementById('pbTitle');
+const pbArtistEl = document.getElementById('pbArtist');
+const pbArtImg = document.getElementById('pbArtImg');
+const navListen = document.getElementById('navListen');
+const mobListen = document.getElementById('mobListen');
+
+let isPlaying = false;
+function setStatus(text, isLive=false) { pbStatus.textContent = text; pbStatus.classList.toggle('live', isLive); }
+function play() {
+  if (!audio.src) audio.src = STREAM_URL;
+  setStatus('Connecting…');
+  audio.play().then(() => { isPlaying = true; pbPlay.classList.add('playing'); setStatus('● LIVE', true); })
+    .catch(() => setStatus('Tap play to start'));
+}
+function pause() { audio.pause(); isPlaying = false; pbPlay.classList.remove('playing'); setStatus('Paused'); }
+function toggle() { if (isPlaying) pause(); else play(); }
+
+pbPlay.addEventListener('click', toggle);
+navListen.addEventListener('click', e => { e.preventDefault(); toggle(); });
+mobListen.addEventListener('click', e => { e.preventDefault(); toggle(); document.getElementById('mobileMenu').classList.remove('open'); });
+
+audio.volume = 0.8;
+pbVol.addEventListener('input', e => { audio.volume = e.target.value / 100; });
+audio.addEventListener('playing', () => setStatus('● LIVE', true));
+audio.addEventListener('pause', () => setStatus('Paused'));
+audio.addEventListener('error', () => setStatus('Stream error'));
+audio.addEventListener('stalled', () => setStatus('Buffering…'));
+audio.addEventListener('waiting', () => setStatus('Buffering…'));
+
+document.getElementById('hamburger').addEventListener('click', () => {
+  document.getElementById('mobileMenu').classList.toggle('open');
+});
+
+function isAdBreak(title, artist) {
+  if (!title) return false;
+  return /^ADBREAK/i.test(title) || (artist || '').toLowerCase() === 'live365';
+}
+
+async function fetchMeta() {
+  try {
+    const r = await fetch(META_URL + '?_=' + Date.now());
+    if (!r.ok) return;
+    const d = await r.json();
+    if (!d.title) return;
+    if (isAdBreak(d.title, d.artist)) {
+      pbTitleEl.textContent = 'WBWT Bahweting Radio';
+      pbArtistEl.textContent = 'Brief break — back in a moment';
+      pbArtImg.src = STATION_LOGO; pbArtImg.classList.add('show');
+    } else {
+      pbTitleEl.textContent = d.title;
+      pbArtistEl.textContent = d.artist || '';
+      if (d.art && !BLANK_ART_PATTERN.test(d.art)) {
+        pbArtImg.src = d.art; pbArtImg.classList.add('show');
+      } else {
+        pbArtImg.classList.remove('show'); pbArtImg.src = '';
+      }
+    }
+  } catch (err) {}
+}
+fetchMeta();
+setInterval(fetchMeta, 15000);
+</script>
+</body>
+</html>
