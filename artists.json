@@ -1,0 +1,1122 @@
+{
+  "version": 1,
+  "updated": "2026-05-04",
+  "artists": [
+    {
+      "id": "ali-fontaine",
+      "name": "Ali Fontaine",
+      "name_normalized": "ali fontaine",
+      "nation": "Sagkeeng Anishinaabe",
+      "hometown": "Sagkeeng First Nation, Manitoba",
+      "based_in": "Saskatoon, Saskatchewan",
+      "genre": [
+        "country",
+        "folk",
+        "r&b"
+      ],
+      "active_since": "2010",
+      "bio": "Ali Fontaine is a multi-award-winning Anishinaabe singer-songwriter who grew up in Sagkeeng First Nation, Manitoba. She first gained attention at 15 when she won a talent competition that earned her studio time, and released her debut album before finishing high school — earning Best Country Recording at the 2013 Native American Music Awards. A four-time winner at the Aboriginal Peoples Choice Music Awards, Ali is also a law student at the University of Saskatchewan, advocating for Indigenous peoples and especially for Indigenous women and children. Her recent single Nibi — Anishinaabemowin for water — reflects on Anishinaabe water teachings and the violence against Indigenous women and girls on Turtle Island.",
+      "kbwt_note": "Nibi means 'water' in Anishinaabemowin — the same language spoken here at Bahweting.",
+      "tracks_in_rotation": [
+        "Nibi"
+      ],
+      "links": {
+        "website": "",
+        "facebook": "https://www.facebook.com/alifontainemusic",
+        "instagram": "https://www.instagram.com/alifontainemusic",
+        "spotify": "",
+        "apple": ""
+      },
+      "photo": "artists/photos/ali-fontaine.jpg",
+      "featured": true,
+      "awards": [
+        "2013 Native American Music Awards — Best Country Recording",
+        "2013 Indigenous Music Awards — Indigenous Female Entertainer of the Year",
+        "2011 Aboriginal Peoples Choice Music Awards — Best New Artist & Best Country CD"
+      ]
+    },
+    {
+      "id": "chevy-beaulieu",
+      "name": "Chevy Beaulieu",
+      "name_normalized": "chevy beaulieu",
+      "nation": "Indigenous (Canadian)",
+      "hometown": "Steen River, Alberta",
+      "based_in": "Airdrie, Alberta",
+      "genre": [
+        "country"
+      ],
+      "active_since": "2010s",
+      "bio": "Chevy Beaulieu is a small-town country artist from Steen River, Alberta — the son of a three-time Canadian Fiddle Champion and raised on Merle Haggard records. Now based in Airdrie and signed to 604 Records, he's worked as a plant operator while building a country music career that includes six radio singles, three #1s on the Indigenous Music Countdown, and a 2022 CMAB Fans' Choice nomination. His 2025 label debut If We Want To was named Stingray's New Country Trending Track and racked up over 200,000 streams in its first weeks.",
+      "kbwt_note": "Working musician with day-job roots — the kind of country we like to play.",
+      "tracks_in_rotation": [
+        "If We Want To"
+      ],
+      "links": {
+        "website": "https://www.604records.com/artist/chevy-beaulieu/",
+        "facebook": "",
+        "instagram": "https://www.instagram.com/chevy_beaulieu_music",
+        "youtube": "https://www.youtube.com/@chevybeaulieu2294",
+        "apple": "https://music.apple.com/ca/artist/chevy-beaulieu/1161392077"
+      },
+      "photo": "artists/photos/chevy-beaulieu.jpg",
+      "featured": true,
+      "awards": [
+        "3× Indigenous Music Countdown #1",
+        "2022 CMAB Fans' Choice nominee"
+      ]
+    },
+    {
+      "id": "ava-rose-johnson",
+      "name": "Ava Rose Johnson",
+      "name_normalized": "ava rose johnson",
+      "nation": "Osage & Cherokee",
+      "hometown": "Eufaula, Oklahoma",
+      "based_in": "Oklahoma / Nashville",
+      "genre": [
+        "country",
+        "americana"
+      ],
+      "active_since": "2017",
+      "bio": "Ava Rose Johnson is an Osage and Cherokee singer-songwriter from Oklahoma who made history at age 12 as the youngest person ever to win a Native American Music Award. Now a Nashville recording artist and 2025 Recording Academy / GRAMMYs new member, she's racked up four top-10 singles on the Indigenous Music Countdown — including Oklahoma Sky, which hit #1 in 2025. She's performed the National Anthem at multiple OKC Thunder games, the NCAA Women's College World Series, and on Good Morning America.",
+      "kbwt_note": "Started writing at age 12 and never slowed down. Oklahoma Sky has Osage references right in the lyrics.",
+      "tracks_in_rotation": [
+        "Oklahoma Sky"
+      ],
+      "links": {
+        "website": "https://www.avarosejohnsonmusic.com",
+        "facebook": "",
+        "instagram": "https://www.instagram.com/avarosejohnsonmusic",
+        "youtube": "https://www.youtube.com/@avarosejohnson945"
+      },
+      "photo": "artists/photos/ava-rose-johnson.jpg",
+      "featured": true,
+      "awards": [
+        "20th Annual Native American Music Awards — Best Female Artist of the Year",
+        "Youngest-ever Native American Music Award winner (age 12, 2019)",
+        "2× NextGen Under 30 Oklahoma — The Arts (2021, 2023)"
+      ]
+    },
+    {
+      "id": "brothers-wilde",
+      "name": "Brothers Wilde",
+      "name_normalized": "brothers wilde",
+      "nation": "Anishinaabe (Kettle and Stony Point First Nation)",
+      "hometown": "Kettle and Stony Point First Nation, Ontario",
+      "based_in": "Ontario",
+      "genre": [
+        "country",
+        "country rock",
+        "roots"
+      ],
+      "active_since": "2018",
+      "bio": "Brothers Wilde are a country-rock duo of siblings Nolan and Ethan Wilde from Kettle and Stony Point First Nation, northeast of Sarnia, Ontario. Lead singer Nolan and lead guitarist Ethan blend country twang with classic rock and roll licks — earning them two #1 singles on the Indigenous Music Countdown (2022 and 2025), plus the 2025 FCLMA Songwriters of the Year award and 2024 FCLMA Country Artist of the Year. As Ethan put it: \"We're not afraid to show that we're country guys, too. We're Indigenous, and we're country.\" They want to be the kind of artists young Indigenous songwriters can look at and say, \"if they can do it, maybe I can do it too.\"",
+      "kbwt_note": "Brothers from a Three Fires Confederacy nation — Anishinaabe relatives doing big things.",
+      "tracks_in_rotation": [
+        "I Hold On",
+        "Buzzin"
+      ],
+      "links": {
+        "website": "https://www.brotherswildemusic.com",
+        "facebook": "https://www.facebook.com/brotherswildemusic",
+        "instagram": "https://www.instagram.com/brotherswildemusic",
+        "youtube": "https://www.youtube.com/@brotherswilde9548",
+        "apple": "https://music.apple.com/ca/artist/brothers-wilde/1514538119"
+      },
+      "photo": "artists/photos/brothers-wilde.jpg",
+      "featured": true,
+      "awards": [
+        "2× Indigenous Music Countdown #1 (2022, 2025)",
+        "2025 FCLMA Songwriters of the Year",
+        "2024 FCLMA Country Artist of the Year",
+        "2019 NACMAI New Country Duo of the Year"
+      ]
+    },
+    {
+      "id": "catie-st-germain",
+      "name": "Catie St.Germain",
+      "name_normalized": "catie st germain",
+      "alt_names": [
+        "Catie St. Germain",
+        "Catie St.Germain"
+      ],
+      "nation": "Métis (Red River)",
+      "hometown": "Niverville, Manitoba",
+      "based_in": "Niverville, Manitoba",
+      "genre": [
+        "country"
+      ],
+      "active_since": "2023",
+      "bio": "Catie St. Germain is a Métis country artist from Niverville, Manitoba who broke through in 2023 with the Manitoba Country Music Association's Emerging Artist award and hasn't slowed down. Her debut EP Cleaning House (Or Trying) earned her three more MCMAs in 2024, and her 2025 single Good Girl Gone Bad Mom — born out of a real conversation about everything moms juggle in a day — became a fan favorite that earned her six MCMA nominations including Female Artist of the Year and the NCI FM Indigenous Country Music Award. She delivered the national anthem at the 112th Grey Cup in November 2025.",
+      "kbwt_note": "Sang O Canada at the Grey Cup. A Métis country artist on the rise — and the song hits home for any mom in the audience.",
+      "tracks_in_rotation": [
+        "Good Girl Gone Bad Mom"
+      ],
+      "links": {
+        "website": "https://www.catiestgermain.com",
+        "facebook": "https://www.facebook.com/CatieStGermainBand",
+        "apple": "https://music.apple.com/ca/artist/catie-st-germain/1677967847",
+        "spotify": "https://open.spotify.com/track/0yGubOzGkSh3UPYXYzv5u9"
+      },
+      "photo": "artists/photos/catie-st-germain.jpg",
+      "featured": true,
+      "awards": [
+        "2023 MCMA — Emerging Artist of the Year",
+        "2024 MCMA — Single of the Year (High Forever)",
+        "Performed national anthem at 112th Grey Cup (2025)"
+      ]
+    },
+    {
+      "id": "aysanabee",
+      "name": "Aysanabee",
+      "name_normalized": "aysanabee",
+      "nation": "Oji-Cree",
+      "hometown": "Canada",
+      "based_in": "Canada",
+      "genre": [
+        "country",
+        "folk"
+      ],
+      "active_since": "",
+      "bio": "Aysanabee is an Indigenous country, folk artist from the Oji-Cree nation.",
+      "kbwt_note": "",
+      "tracks_in_rotation": [],
+      "links": {
+        "website": "https://www.indigenousmusic.ca/artists"
+      },
+      "photo": "",
+      "featured": false,
+      "awards": []
+    },
+    {
+      "id": "adrian-sutherland",
+      "name": "Adrian Sutherland",
+      "name_normalized": "adrian sutherland",
+      "nation": "Inuk",
+      "hometown": "Canada",
+      "based_in": "Canada",
+      "genre": [
+        "country",
+        "folk"
+      ],
+      "active_since": "",
+      "bio": "Adrian Sutherland is an Indigenous country, folk artist from the Inuk nation.",
+      "kbwt_note": "",
+      "tracks_in_rotation": [],
+      "links": {
+        "website": "https://redi.med.ubc.ca/redis-indigenous-musicians-list/"
+      },
+      "photo": "",
+      "featured": false,
+      "awards": []
+    },
+    {
+      "id": "blue-moon-marquee",
+      "name": "Blue Moon Marquee",
+      "name_normalized": "blue moon marquee",
+      "nation": "Indigenous-led",
+      "hometown": "Canada",
+      "based_in": "Canada",
+      "genre": [
+        "roots",
+        "folk"
+      ],
+      "active_since": "",
+      "bio": "Blue Moon Marquee is an Indigenous roots, folk artist from the Indigenous-led nation.",
+      "kbwt_note": "",
+      "tracks_in_rotation": [],
+      "links": {
+        "website": "https://redi.med.ubc.ca/redis-indigenous-musicians-list/"
+      },
+      "photo": "",
+      "featured": false,
+      "awards": []
+    },
+    {
+      "id": "halluci-nation",
+      "name": "Halluci Nation",
+      "name_normalized": "halluci nation",
+      "nation": "Indigenous collective",
+      "hometown": "Canada",
+      "based_in": "Canada",
+      "genre": [
+        "roots",
+        "folk"
+      ],
+      "active_since": "",
+      "bio": "Halluci Nation is an Indigenous roots, folk artist from the Indigenous collective nation.",
+      "kbwt_note": "",
+      "tracks_in_rotation": [],
+      "links": {
+        "website": "https://redi.med.ubc.ca/redis-indigenous-musicians-list/"
+      },
+      "photo": "",
+      "featured": false,
+      "awards": []
+    },
+    {
+      "id": "piqsiq",
+      "name": "PIQSIQ",
+      "name_normalized": "piqsiq",
+      "nation": "Inuk",
+      "hometown": "Canada",
+      "based_in": "Canada",
+      "genre": [
+        "folk",
+        "throat singing"
+      ],
+      "active_since": "",
+      "bio": "PIQSIQ is an Indigenous folk, throat singing artist from the Inuk nation.",
+      "kbwt_note": "",
+      "tracks_in_rotation": [],
+      "links": {
+        "website": "https://redi.med.ubc.ca/redis-indigenous-musicians-list/"
+      },
+      "photo": "",
+      "featured": false,
+      "awards": []
+    },
+    {
+      "id": "celeigh-cardinal",
+      "name": "Celeigh Cardinal",
+      "name_normalized": "celeigh cardinal",
+      "nation": "Métis",
+      "hometown": "Canada",
+      "based_in": "Canada",
+      "genre": [
+        "country",
+        "folk"
+      ],
+      "active_since": "",
+      "bio": "Celeigh Cardinal is an Indigenous country, folk artist from the Métis nation.",
+      "kbwt_note": "",
+      "tracks_in_rotation": [],
+      "links": {
+        "website": "https://redi.med.ubc.ca/redis-indigenous-musicians-list/"
+      },
+      "photo": "",
+      "featured": false,
+      "awards": []
+    },
+    {
+      "id": "hayley-wallis",
+      "name": "Hayley Wallis",
+      "name_normalized": "hayley wallis",
+      "nation": "Indigenous (Canadian)",
+      "hometown": "Canada",
+      "based_in": "Canada",
+      "genre": [
+        "country",
+        "folk"
+      ],
+      "active_since": "",
+      "bio": "Hayley Wallis is an Indigenous country, folk artist from the Indigenous (Canadian) nation.",
+      "kbwt_note": "",
+      "tracks_in_rotation": [],
+      "links": {
+        "website": "https://redi.med.ubc.ca/redis-indigenous-musicians-list/"
+      },
+      "photo": "",
+      "featured": false,
+      "awards": []
+    },
+    {
+      "id": "robbie-robertson",
+      "name": "Robbie Robertson",
+      "name_normalized": "robbie robertson",
+      "nation": "Mohawk",
+      "hometown": "Toronto, Ontario",
+      "based_in": "Toronto, Ontario",
+      "genre": [
+        "folk rock"
+      ],
+      "active_since": "",
+      "bio": "Robbie Robertson is an Indigenous folk rock artist from the Mohawk nation.",
+      "kbwt_note": "",
+      "tracks_in_rotation": [],
+      "links": {
+        "website": "https://redi.med.ubc.ca/redis-indigenous-musicians-list/"
+      },
+      "photo": "",
+      "featured": false,
+      "awards": []
+    },
+    {
+      "id": "william-prince",
+      "name": "William Prince",
+      "name_normalized": "william prince",
+      "nation": "Cree",
+      "hometown": "Peguis First Nation, Manitoba",
+      "based_in": "Peguis First Nation, Manitoba",
+      "genre": [
+        "country",
+        "folk"
+      ],
+      "active_since": "",
+      "bio": "William Prince is an Indigenous country, folk artist from the Cree nation.",
+      "kbwt_note": "",
+      "tracks_in_rotation": [],
+      "links": {
+        "website": "https://www.indigenousmusic.ca/artists"
+      },
+      "photo": "",
+      "featured": false,
+      "awards": []
+    },
+    {
+      "id": "don-amero",
+      "name": "Don Amero",
+      "name_normalized": "don amero",
+      "nation": "Métis",
+      "hometown": "Manitoba",
+      "based_in": "Manitoba",
+      "genre": [
+        "country",
+        "folk"
+      ],
+      "active_since": "",
+      "bio": "Don Amero is an Indigenous country, folk artist from the Métis nation.",
+      "kbwt_note": "",
+      "tracks_in_rotation": [],
+      "links": {
+        "website": "https://www.indigenousmusic.ca/artists"
+      },
+      "photo": "",
+      "featured": false,
+      "awards": []
+    },
+    {
+      "id": "jade-turner",
+      "name": "Jade Turner",
+      "name_normalized": "jade turner",
+      "nation": "Ojibwe",
+      "hometown": "Canada",
+      "based_in": "Canada",
+      "genre": [
+        "country",
+        "folk"
+      ],
+      "active_since": "",
+      "bio": "Jade Turner is an Indigenous country, folk artist from the Ojibwe nation.",
+      "kbwt_note": "",
+      "tracks_in_rotation": [],
+      "links": {
+        "website": "https://www.indigenousmusic.ca/artists"
+      },
+      "photo": "",
+      "featured": false,
+      "awards": []
+    },
+    {
+      "id": "burnstick",
+      "name": "Burnstick",
+      "name_normalized": "burnstick",
+      "nation": "Cree/Métis",
+      "hometown": "Canada",
+      "based_in": "Canada",
+      "genre": [
+        "country",
+        "folk"
+      ],
+      "active_since": "",
+      "bio": "Burnstick is an Indigenous country, folk artist from the Cree/Métis nation.",
+      "kbwt_note": "",
+      "tracks_in_rotation": [],
+      "links": {
+        "website": "https://www.indigenousmusic.ca/artists"
+      },
+      "photo": "",
+      "featured": false,
+      "awards": []
+    },
+    {
+      "id": "brandi-vezina",
+      "name": "Brandi Vezina",
+      "name_normalized": "brandi vezina",
+      "nation": "Métis",
+      "hometown": "Canada",
+      "based_in": "Canada",
+      "genre": [
+        "country",
+        "folk"
+      ],
+      "active_since": "",
+      "bio": "Brandi Vezina is an Indigenous country, folk artist from the Métis nation.",
+      "kbwt_note": "",
+      "tracks_in_rotation": [],
+      "links": {
+        "website": "https://www.indigenousmusic.ca/artists"
+      },
+      "photo": "",
+      "featured": false,
+      "awards": []
+    },
+    {
+      "id": "jerry-sereda",
+      "name": "Jerry Sereda",
+      "name_normalized": "jerry sereda",
+      "nation": "Indigenous (Canadian)",
+      "hometown": "Canada",
+      "based_in": "Canada",
+      "genre": [
+        "country",
+        "folk"
+      ],
+      "active_since": "",
+      "bio": "Jerry Sereda is an Indigenous country, folk artist from the Indigenous (Canadian) nation.",
+      "kbwt_note": "",
+      "tracks_in_rotation": [],
+      "links": {
+        "website": "https://www.indigenousmusic.ca/artists"
+      },
+      "photo": "",
+      "featured": false,
+      "awards": []
+    },
+    {
+      "id": "shawnee-kish",
+      "name": "Shawnee Kish",
+      "name_normalized": "shawnee kish",
+      "nation": "Mohawk",
+      "hometown": "Six Nations of the Grand River, Ontario",
+      "based_in": "Six Nations of the Grand River, Ontario",
+      "genre": [
+        "country",
+        "folk"
+      ],
+      "active_since": "",
+      "bio": "Shawnee Kish is an Indigenous country, folk artist from the Mohawk nation.",
+      "kbwt_note": "",
+      "tracks_in_rotation": [],
+      "links": {
+        "website": "https://www.indigenousmusic.ca/artists"
+      },
+      "photo": "",
+      "featured": false,
+      "awards": []
+    },
+    {
+      "id": "morgan-toney",
+      "name": "Morgan Toney",
+      "name_normalized": "morgan toney",
+      "nation": "Mi'kmaq",
+      "hometown": "Cape Breton, Nova Scotia",
+      "based_in": "Cape Breton, Nova Scotia",
+      "genre": [
+        "country",
+        "folk"
+      ],
+      "active_since": "",
+      "bio": "Morgan Toney is an Indigenous country, folk artist from the Mi'kmaq nation.",
+      "kbwt_note": "",
+      "tracks_in_rotation": [],
+      "links": {
+        "website": "https://www.junoawards.ca/blog/indigenous-artists-you-should-know/"
+      },
+      "photo": "",
+      "featured": false,
+      "awards": []
+    },
+    {
+      "id": "laura-niquay",
+      "name": "Laura Niquay",
+      "name_normalized": "laura niquay",
+      "nation": "Atikamekw",
+      "hometown": "Wemotaci, Quebec",
+      "based_in": "Wemotaci, Quebec",
+      "genre": [
+        "folk"
+      ],
+      "active_since": "",
+      "bio": "Laura Niquay is an Indigenous folk artist from the Atikamekw nation.",
+      "kbwt_note": "",
+      "tracks_in_rotation": [],
+      "links": {
+        "website": "https://www.junoawards.ca/blog/indigenous-artists-you-should-know/"
+      },
+      "photo": "",
+      "featured": false,
+      "awards": []
+    },
+    {
+      "id": "elisapie",
+      "name": "Elisapie",
+      "name_normalized": "elisapie",
+      "nation": "Inuk",
+      "hometown": "Salluit, Nunavik",
+      "based_in": "Salluit, Nunavik",
+      "genre": [
+        "folk",
+        "country"
+      ],
+      "active_since": "",
+      "bio": "Elisapie is an Indigenous folk, country artist from the Inuk nation.",
+      "kbwt_note": "",
+      "tracks_in_rotation": [],
+      "links": {
+        "website": "https://redi.med.ubc.ca/redis-indigenous-musicians-list/"
+      },
+      "photo": "",
+      "featured": false,
+      "awards": []
+    },
+    {
+      "id": "the-north-sound",
+      "name": "The North Sound",
+      "name_normalized": "the north sound",
+      "nation": "Indigenous (Canadian)",
+      "hometown": "Canada",
+      "based_in": "Canada",
+      "genre": [
+        "country"
+      ],
+      "active_since": "",
+      "bio": "The North Sound is an Indigenous country artist from the Indigenous (Canadian) nation.",
+      "kbwt_note": "",
+      "tracks_in_rotation": [],
+      "links": {
+        "website": "https://www.indigenousmusic.ca/artists"
+      },
+      "photo": "",
+      "featured": false,
+      "awards": []
+    },
+    {
+      "id": "leanne-goose",
+      "name": "Leanne Goose",
+      "name_normalized": "leanne goose",
+      "nation": "Gwich'in",
+      "hometown": "Yukon",
+      "based_in": "Yukon",
+      "genre": [
+        "folk"
+      ],
+      "active_since": "",
+      "bio": "Leanne Goose is an Indigenous folk artist from the Gwich'in nation.",
+      "kbwt_note": "",
+      "tracks_in_rotation": [],
+      "links": {
+        "website": "https://www.sakihiwe.ca/artist-directory/complete-directory"
+      },
+      "photo": "",
+      "featured": false,
+      "awards": []
+    },
+    {
+      "id": "kym-gouchie",
+      "name": "Kym Gouchie",
+      "name_normalized": "kym gouchie",
+      "nation": "Lheidli T'enneh / Cree / Secwépemc",
+      "hometown": "Prince George, British Columbia",
+      "based_in": "Prince George, British Columbia",
+      "genre": [
+        "folk"
+      ],
+      "active_since": "",
+      "bio": "Kym Gouchie is an Indigenous folk artist from the Lheidli T'enneh / Cree / Secwépemc nation.",
+      "kbwt_note": "",
+      "tracks_in_rotation": [],
+      "links": {
+        "website": "https://www.sakihiwe.ca/artist-directory/complete-directory"
+      },
+      "photo": "",
+      "featured": false,
+      "awards": []
+    },
+    {
+      "id": "kristi-lane-sinclair",
+      "name": "Kristi Lane Sinclair",
+      "name_normalized": "kristi lane sinclair",
+      "nation": "Haida/Cree",
+      "hometown": "Canada",
+      "based_in": "Canada",
+      "genre": [
+        "folk",
+        "country"
+      ],
+      "active_since": "",
+      "bio": "Kristi Lane Sinclair is an Indigenous folk, country artist from the Haida/Cree nation.",
+      "kbwt_note": "",
+      "tracks_in_rotation": [],
+      "links": {
+        "website": "https://www.sakihiwe.ca/artist-directory/complete-directory"
+      },
+      "photo": "",
+      "featured": false,
+      "awards": []
+    },
+    {
+      "id": "gator-beaulieu",
+      "name": "Gator Beaulieu",
+      "name_normalized": "gator beaulieu",
+      "nation": "First Nations (Canadian)",
+      "hometown": "Canada",
+      "based_in": "Canada",
+      "genre": [
+        "country"
+      ],
+      "active_since": "",
+      "bio": "Gator Beaulieu is an Indigenous country artist from the First Nations (Canadian) nation.",
+      "kbwt_note": "",
+      "tracks_in_rotation": [],
+      "links": {
+        "website": "https://www.sakihiwe.ca/artist-directory/complete-directory"
+      },
+      "photo": "",
+      "featured": false,
+      "awards": []
+    },
+    {
+      "id": "trixie-mattel",
+      "name": "Trixie Mattel",
+      "name_normalized": "trixie mattel",
+      "nation": "Bad River Ojibwe",
+      "hometown": "Wisconsin",
+      "based_in": "Wisconsin",
+      "genre": [
+        "country",
+        "folk"
+      ],
+      "active_since": "",
+      "bio": "Trixie Mattel is an Indigenous country, folk artist from the Bad River Ojibwe nation.",
+      "kbwt_note": "",
+      "tracks_in_rotation": [],
+      "links": {
+        "website": "https://www.firstpeoplesfund.org/about/artists-directory"
+      },
+      "photo": "",
+      "featured": false,
+      "awards": []
+    },
+    {
+      "id": "joanne-shenandoah",
+      "name": "Joanne Shenandoah",
+      "name_normalized": "joanne shenandoah",
+      "nation": "Oneida",
+      "hometown": "New York",
+      "based_in": "New York",
+      "genre": [
+        "folk"
+      ],
+      "active_since": "",
+      "bio": "Joanne Shenandoah is an Indigenous folk artist from the Oneida nation.",
+      "kbwt_note": "",
+      "tracks_in_rotation": [],
+      "links": {
+        "website": "https://www.firstpeoplesfund.org/about/artists-directory"
+      },
+      "photo": "",
+      "featured": false,
+      "awards": []
+    },
+    {
+      "id": "buffy-sainte-marie",
+      "name": "Buffy Sainte-Marie",
+      "name_normalized": "buffy sainte-marie",
+      "nation": "Cree",
+      "hometown": "Saskatchewan / USA",
+      "based_in": "Saskatchewan / USA",
+      "genre": [
+        "folk"
+      ],
+      "active_since": "",
+      "bio": "Buffy Sainte-Marie is an Indigenous folk artist from the Cree nation.",
+      "kbwt_note": "",
+      "tracks_in_rotation": [],
+      "links": {
+        "website": "https://www.firstpeoplesfund.org/about/artists-directory"
+      },
+      "photo": "",
+      "featured": false,
+      "awards": []
+    },
+    {
+      "id": "samantha-crain",
+      "name": "Samantha Crain",
+      "name_normalized": "samantha crain",
+      "nation": "Choctaw",
+      "hometown": "Shawnee, Oklahoma",
+      "based_in": "Shawnee, Oklahoma",
+      "genre": [
+        "folk",
+        "country"
+      ],
+      "active_since": "",
+      "bio": "Samantha Crain is an Indigenous folk, country artist from the Choctaw nation.",
+      "kbwt_note": "",
+      "tracks_in_rotation": [],
+      "links": {
+        "website": "https://www.firstpeoplesfund.org/about/artists-directory"
+      },
+      "photo": "",
+      "featured": false,
+      "awards": []
+    },
+    {
+      "id": "rhiannon-giddens",
+      "name": "Rhiannon Giddens",
+      "name_normalized": "rhiannon giddens",
+      "nation": "Native American ancestry",
+      "hometown": "Greensboro, North Carolina",
+      "based_in": "Greensboro, North Carolina",
+      "genre": [
+        "folk",
+        "country"
+      ],
+      "active_since": "",
+      "bio": "Rhiannon Giddens is an Indigenous folk, country artist from the Native American ancestry nation.",
+      "kbwt_note": "",
+      "tracks_in_rotation": [],
+      "links": {
+        "website": "https://www.firstpeoplesfund.org/about/artists-directory"
+      },
+      "photo": "",
+      "featured": false,
+      "awards": []
+    },
+    {
+      "id": "black-belt-eagle-scout",
+      "name": "Black Belt Eagle Scout",
+      "name_normalized": "black belt eagle scout",
+      "nation": "Swinomish/Iñupiaq",
+      "hometown": "Washington State",
+      "based_in": "Washington State",
+      "genre": [
+        "indie folk"
+      ],
+      "active_since": "",
+      "bio": "Black Belt Eagle Scout is an Indigenous indie folk artist from the Swinomish/Iñupiaq nation.",
+      "kbwt_note": "",
+      "tracks_in_rotation": [],
+      "links": {
+        "website": "https://www.firstpeoplesfund.org/about/artists-directory"
+      },
+      "photo": "",
+      "featured": false,
+      "awards": []
+    },
+    {
+      "id": "quinn-christopherson",
+      "name": "Quinn Christopherson",
+      "name_normalized": "quinn christopherson",
+      "nation": "Alaskan Athabaskan/Iñupiaq",
+      "hometown": "Fairbanks, Alaska",
+      "based_in": "Fairbanks, Alaska",
+      "genre": [
+        "folk"
+      ],
+      "active_since": "",
+      "bio": "Quinn Christopherson is an Indigenous folk artist from the Alaskan Athabaskan/Iñupiaq nation.",
+      "kbwt_note": "",
+      "tracks_in_rotation": [],
+      "links": {
+        "website": "https://www.firstpeoplesfund.org/about/artists-directory"
+      },
+      "photo": "",
+      "featured": false,
+      "awards": []
+    },
+    {
+      "id": "dawn-avery",
+      "name": "Dawn Avery",
+      "name_normalized": "dawn avery",
+      "nation": "Mohawk",
+      "hometown": "USA",
+      "based_in": "USA",
+      "genre": [
+        "folk",
+        "roots"
+      ],
+      "active_since": "",
+      "bio": "Dawn Avery is an Indigenous folk, roots artist from the Mohawk nation.",
+      "kbwt_note": "",
+      "tracks_in_rotation": [],
+      "links": {
+        "website": "https://www.firstpeoplesfund.org/about/artists-directory"
+      },
+      "photo": "",
+      "featured": false,
+      "awards": []
+    },
+    {
+      "id": "r-carlos-nakai",
+      "name": "R. Carlos Nakai",
+      "name_normalized": "r. carlos nakai",
+      "nation": "Diné",
+      "hometown": "Flagstaff, Arizona",
+      "based_in": "Flagstaff, Arizona",
+      "genre": [
+        "native flute",
+        "folk"
+      ],
+      "active_since": "",
+      "bio": "R. Carlos Nakai is an Indigenous native flute, folk artist from the Diné nation.",
+      "kbwt_note": "",
+      "tracks_in_rotation": [],
+      "links": {
+        "website": "https://www.firstpeoplesfund.org/about/artists-directory"
+      },
+      "photo": "",
+      "featured": false,
+      "awards": []
+    },
+    {
+      "id": "brul",
+      "name": "Brulé",
+      "name_normalized": "brulé",
+      "nation": "Native American",
+      "hometown": "South Dakota",
+      "based_in": "South Dakota",
+      "genre": [
+        "country",
+        "folk"
+      ],
+      "active_since": "",
+      "bio": "Brulé is an Indigenous country, folk artist from the Native American nation.",
+      "kbwt_note": "",
+      "tracks_in_rotation": [],
+      "links": {
+        "website": "https://www.powwows.com/explore-native-music/"
+      },
+      "photo": "",
+      "featured": false,
+      "awards": []
+    },
+    {
+      "id": "buddy-red-bow",
+      "name": "Buddy Red Bow",
+      "name_normalized": "buddy red bow",
+      "nation": "Oglala Lakota",
+      "hometown": "Pine Ridge, South Dakota",
+      "based_in": "Pine Ridge, South Dakota",
+      "genre": [
+        "country",
+        "folk"
+      ],
+      "active_since": "",
+      "bio": "Buddy Red Bow is an Indigenous country, folk artist from the Oglala Lakota nation.",
+      "kbwt_note": "",
+      "tracks_in_rotation": [],
+      "links": {
+        "website": "https://www.powwows.com/explore-native-music/"
+      },
+      "photo": "",
+      "featured": false,
+      "awards": []
+    },
+    {
+      "id": "supaman",
+      "name": "Supaman",
+      "name_normalized": "supaman",
+      "nation": "Apsáalooke",
+      "hometown": "Montana",
+      "based_in": "Montana",
+      "genre": [
+        "powwow",
+        "hip hop"
+      ],
+      "active_since": "",
+      "bio": "Supaman is an Indigenous powwow, hip hop artist from the Apsáalooke nation.",
+      "kbwt_note": "",
+      "tracks_in_rotation": [],
+      "links": {
+        "website": "https://www.powwows.com/native-talent-native-american-talent-directory/"
+      },
+      "photo": "",
+      "featured": false,
+      "awards": []
+    },
+    {
+      "id": "black-lodge-singers",
+      "name": "Black Lodge Singers",
+      "name_normalized": "black lodge singers",
+      "nation": "Blackfeet",
+      "hometown": "Montana",
+      "based_in": "Montana",
+      "genre": [
+        "powwow"
+      ],
+      "active_since": "",
+      "bio": "Black Lodge Singers is an Indigenous powwow artist from the Blackfeet nation.",
+      "kbwt_note": "",
+      "tracks_in_rotation": [],
+      "links": {
+        "website": "https://www.powwows.com/explore-native-music/"
+      },
+      "photo": "",
+      "featured": false,
+      "awards": []
+    },
+    {
+      "id": "cozad-singers",
+      "name": "Cozad Singers",
+      "name_normalized": "cozad singers",
+      "nation": "Kiowa",
+      "hometown": "Oklahoma",
+      "based_in": "Oklahoma",
+      "genre": [
+        "powwow"
+      ],
+      "active_since": "",
+      "bio": "Cozad Singers is an Indigenous powwow artist from the Kiowa nation.",
+      "kbwt_note": "",
+      "tracks_in_rotation": [],
+      "links": {
+        "website": "https://www.powwows.com/explore-native-music/"
+      },
+      "photo": "",
+      "featured": false,
+      "awards": []
+    },
+    {
+      "id": "kevin-locke",
+      "name": "Kevin Locke",
+      "name_normalized": "kevin locke",
+      "nation": "Standing Rock Lakota",
+      "hometown": "Standing Rock, North Dakota",
+      "based_in": "Standing Rock, North Dakota",
+      "genre": [
+        "powwow",
+        "flute"
+      ],
+      "active_since": "",
+      "bio": "Kevin Locke is an Indigenous powwow, flute artist from the Standing Rock Lakota nation.",
+      "kbwt_note": "",
+      "tracks_in_rotation": [],
+      "links": {
+        "website": "https://www.powwows.com/native-talent-native-american-talent-directory/"
+      },
+      "photo": "",
+      "featured": false,
+      "awards": []
+    },
+    {
+      "id": "joy-harjo",
+      "name": "Joy Harjo",
+      "name_normalized": "joy harjo",
+      "nation": "Muscogee (Creek)",
+      "hometown": "Tulsa, Oklahoma",
+      "based_in": "Tulsa, Oklahoma",
+      "genre": [
+        "spoken word",
+        "folk"
+      ],
+      "active_since": "",
+      "bio": "Joy Harjo is an Indigenous spoken word, folk artist from the Muscogee (Creek) nation.",
+      "kbwt_note": "",
+      "tracks_in_rotation": [],
+      "links": {
+        "website": "https://www.firstpeoplesfund.org/about/artists-directory"
+      },
+      "photo": "",
+      "featured": false,
+      "awards": []
+    },
+    {
+      "id": "nataanii-means",
+      "name": "Nataanii Means",
+      "name_normalized": "nataanii means",
+      "nation": "Oglala Lakota / Omaha / Diné",
+      "hometown": "Pine Ridge, South Dakota",
+      "based_in": "Pine Ridge, South Dakota",
+      "genre": [
+        "spoken word"
+      ],
+      "active_since": "",
+      "bio": "Nataanii Means is an Indigenous spoken word artist from the Oglala Lakota / Omaha / Diné nation.",
+      "kbwt_note": "",
+      "tracks_in_rotation": [],
+      "links": {
+        "website": "https://www.powwows.com/native-talent-native-american-talent-directory/"
+      },
+      "photo": "",
+      "featured": false,
+      "awards": []
+    },
+    {
+      "id": "gyasi-ross",
+      "name": "Gyasi Ross",
+      "name_normalized": "gyasi ross",
+      "nation": "Blackfeet",
+      "hometown": "Montana",
+      "based_in": "Montana",
+      "genre": [
+        "folk",
+        "spoken word"
+      ],
+      "active_since": "",
+      "bio": "Gyasi Ross is an Indigenous folk, spoken word artist from the Blackfeet nation.",
+      "kbwt_note": "",
+      "tracks_in_rotation": [],
+      "links": {
+        "website": "https://www.powwows.com/native-talent-native-american-talent-directory/"
+      },
+      "photo": "",
+      "featured": false,
+      "awards": []
+    },
+    {
+      "id": "pura-fe",
+      "name": "Pura Fe",
+      "name_normalized": "pura fe",
+      "nation": "Tuscarora",
+      "hometown": "USA",
+      "based_in": "USA",
+      "genre": [
+        "folk",
+        "roots"
+      ],
+      "active_since": "",
+      "bio": "Pura Fe is an Indigenous folk, roots artist from the Tuscarora nation.",
+      "kbwt_note": "",
+      "tracks_in_rotation": [],
+      "links": {
+        "website": "https://www.firstpeoplesfund.org/about/artists-directory"
+      },
+      "photo": "",
+      "featured": false,
+      "awards": []
+    },
+    {
+      "id": "verdell-primeaux",
+      "name": "Verdell Primeaux",
+      "name_normalized": "verdell primeaux",
+      "nation": "Lakota",
+      "hometown": "South Dakota",
+      "based_in": "South Dakota",
+      "genre": [
+        "powwow"
+      ],
+      "active_since": "",
+      "bio": "Verdell Primeaux is an Indigenous powwow artist from the Lakota nation.",
+      "kbwt_note": "",
+      "tracks_in_rotation": [],
+      "links": {
+        "website": "https://www.powwows.com/explore-native-music/"
+      },
+      "photo": "",
+      "featured": false,
+      "awards": []
+    },
+    {
+      "id": "johnny-mike",
+      "name": "Johnny Mike",
+      "name_normalized": "johnny mike",
+      "nation": "Diné",
+      "hometown": "Navajo Nation",
+      "based_in": "Navajo Nation",
+      "genre": [
+        "powwow"
+      ],
+      "active_since": "",
+      "bio": "Johnny Mike is an Indigenous powwow artist from the Diné nation.",
+      "kbwt_note": "",
+      "tracks_in_rotation": [],
+      "links": {
+        "website": "https://www.powwows.com/explore-native-music/"
+      },
+      "photo": "",
+      "featured": false,
+      "awards": []
+    }
+  ]
+}
